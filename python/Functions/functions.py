@@ -28,3 +28,16 @@ def translator2(english_txt):
     return f"The translation for {english_txt} in Hindi is {hindi_wrd}"
 
 print(translator2('hello'))
+
+
+# write a function that returns sum of 2 numbers
+def sum_of_two_nums(num1, num2):
+    if num1 == 0 or num2 == 0:
+        print("Please Enter a number missing in num1 or num2")
+    sum = num1 + num2
+    return f"sum of {num1} + {num2} = {sum}"
+
+num1 = int(input("Enter Number 1: "))
+num2 = int(input("Enter Number 2: "))
+results = sum_of_two_nums(num1, num2)
+print(results)
