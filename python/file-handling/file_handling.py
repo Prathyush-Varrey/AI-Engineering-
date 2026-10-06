@@ -19,3 +19,12 @@ c = open("example.txt", 'r')
 rewritten_content = c.read()
 print(rewritten_content)
 c.close()
+
+
+with open("example.txt", 'w') as text:
+    text.write("Hello My Name is Prathyush\n")
+    text.write("I'm a AI FDE by 2027")
+
+with open("example.txt", 'r') as text:
+    content=text.read()
+    print(content)
